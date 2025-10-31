@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yulky Gamer | Minecraft Downloads & Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.clouds.min.js"></script>
+    <style>
+        #hero-bg {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('http://static.photos/nature/1200x630/42');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+    <custom-navbar></custom-navbar>
+    
+    <!-- Hero Section -->
+    <section id="hero-bg" class="min-h-screen flex items-center justify-center px-4">
+        <div class="text-center max-w-4xl">
+            <h1 class="text-5xl md:text-7xl font-bold mb-6 text-green-500">Yulky Gamer</h1>
+            <p class="text-xl md:text-2xl mb-10 text-gray-300">Your ultimate portal for Minecraft downloads, tutorials, and community resources</p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="#downloads" class="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg text-lg font-bold transition duration-300 transform hover:scale-105">
+                    Get Minecraft
+                </a>
+                <a href="#tutorials" class="bg-gray-700 hover:bg-gray-600 text-white px-8 py-4 rounded-lg text-lg font-bold transition duration-300 transform hover:scale-105">
+                    Learn to Play
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Downloads Section -->
+    <section id="downloads" class="py-20 bg-gray-800">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold mb-12 text-center text-green-400">Download Minecraft</h2>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Java Edition -->
+                <div class="bg-gray-900 rounded-xl p-6 shadow-2xl border-l-4 border-green-500">
+                    <div class="flex items-center mb-4">
+                        <i data-feather="cpu" class="text-green-500 mr-3"></i>
+                        <h3 class="text-2xl font-bold">Java Edition</h3>
+                    </div>
+                    <p class="text-gray-400 mb-6">The original Minecraft experience with mod support</p>
+                    <a href="/download-java.html" class="inline-block bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-bold transition duration-300">Download</a>
+                </div>
+                
+                <!-- Bedrock Edition -->
+                <div class="bg-gray-900 rounded-xl p-6 shadow-2xl border-l-4 border-blue-500">
+                    <div class="flex items-center mb-4">
+                        <i data-feather="tablet" class="text-blue-500 mr-3"></i>
+                        <h3 class="text-2xl font-bold">Bedrock Edition</h3>
+                    </div>
+                    <p class="text-gray-400 mb-6">Cross-platform play with friends on any device</p>
+                    <a href="/download-bedrock.html" class="inline-block bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-bold transition duration-300">Download</a>
+                </div>
+                
+                <!-- Education Edition -->
+                <div class="bg-gray-900 rounded-xl p-6 shadow-2xl border-l-4 border-purple-500">
+                    <div class="flex items-center mb-4">
+                        <i data-feather="book" class="text-purple-500 mr-3"></i>
+                        <h3 class="text-2xl font-bold">Education Edition</h3>
+                    </div>
+                    <p class="text-gray-400 mb-6">Classroom-ready version with lesson plans</p>
+                    <a href="/download-education.html" class="inline-block bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-lg font-bold transition duration-300">Download</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tutorials Section -->
+    <section id="tutorials" class="py-20 bg-gray-700">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold mb-12 text-center text-green-400">Minecraft Tutorials</h2>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Beginner -->
+                <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg transition duration-500 hover:shadow-xl hover:-translate-y-2">
+                    <div class="h-48 bg-green-900 flex items-center justify-center">
+                        <i data-feather="compass" class="w-16 h-16 text-white"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-3">Beginner's Guide</h3>
+                        <p class="text-gray-400 mb-4">Start your Minecraft journey the right way</p>
+                        <a href="/tutorial-beginner.html" class="text-green-400 hover:text-green-300 font-bold flex items-center">
+                            Learn More <i data-feather="arrow-right" class="ml-2 w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Building -->
+                <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg transition duration-500 hover:shadow-xl hover:-translate-y-2">
+                    <div class="h-48 bg-blue-900 flex items-center justify-center">
+                        <i data-feather="home" class="w-16 h-16 text-white"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-3">Building Mastery</h3>
+                        <p class="text-gray-400 mb-4">Advanced construction techniques</p>
+                        <a href="/tutorial-building.html" class="text-blue-400 hover:text-blue-300 font-bold flex items-center">
+                            Learn More <i data-feather="arrow-right" class="ml-2 w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Redstone -->
+                <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg transition duration-500 hover:shadow-xl hover:-translate-y-2">
+                    <div class="h-48 bg-red-900 flex items-center justify-center">
+                        <i data-feather="zap" class="w-16 h-16 text-white"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-3">Redstone Wonders</h3>
+                        <p class="text-gray-400 mb-4">Create amazing contraptions</p>
+                        <a href="/tutorial-redstone.html" class="text-red-400 hover:text-red-300 font-bold flex items-center">
+                            Learn More <i data-feather="arrow-right" class="ml-2 w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Survival -->
+                <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg transition duration-500 hover:shadow-xl hover:-translate-y-2">
+                    <div class="h-48 bg-yellow-900 flex items-center justify-center">
+                        <i data-feather="shield" class="w-16 h-16 text-white"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-3">Survival Guide</h3>
+                        <p class="text-gray-400 mb-4">Thrive in your Minecraft world</p>
+                        <a href="/tutorial-survival.html" class="text-yellow-400 hover:text-yellow-300 font-bold flex items-center">
+                            Learn More <i data-feather="arrow-right" class="ml-2 w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Section -->
+    <section class="py-20 bg-gray-900">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl font-bold mb-6 text-green-400">Join Our Community</h2>
+            <p class="text-xl text-gray-400 max-w-3xl mx-auto mb-12">Connect with thousands of Minecraft enthusiasts, share your builds, and get expert advice</p>
+            
+            <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                <div class="bg-gray-800 p-8 rounded-xl">
+                    <i data-feather="message-square" class="w-12 h-12 text-green-500 mx-auto mb-4"></i>
+                    <h3 class="text-2xl font-bold mb-3">Forums</h3>
+                    <p class="text-gray-400 mb-6">Discuss strategies and share ideas</p>
+                    <a href="#" class="inline-block bg-gray-700 hover:bg-gray-600 text-white px-6 py-2 rounded-lg transition duration-300">Join Now</a>
+                </div>
+                
+                <div class="bg-gray-800 p-8 rounded-xl">
+                    <i data-feather="image" class="w-12 h-12 text-green-500 mx-auto mb-4"></i>
+                    <h3 class="text-2xl font-bold mb-3">Gallery</h3>
+                    <p class="text-gray-400 mb-6">Showcase your amazing creations</p>
+                    <a href="#" class="inline-block bg-gray-700 hover:bg-gray-600 text-white px-6 py-2 rounded-lg transition duration-300">View Gallery</a>
+                </div>
+                
+                <div class="bg-gray-800 p-8 rounded-xl">
+                    <i data-feather="youtube" class="w-12 h-12 text-green-500 mx-auto mb-4"></i>
+                    <h3 class="text-2xl font-bold mb-3">Live Streams</h3>
+                    <p class="text-gray-400 mb-6">Watch and learn from the pros</p>
+                    <a href="#" class="inline-block bg-gray-700 hover:bg-gray-600 text-white px-6 py-2 rounded-lg transition duration-300">Watch Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <custom-footer></custom-footer>
+
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script>
+        feather.replace();
+        VANTA.CLOUDS({
+            el: "#hero-bg",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            skyColor: 0x0,
+            cloudColor: 0x2a9349,
+            cloudShadowColor: 0x0,
+            sunColor: 0x3a7d44,
+            sunGlareColor: 0x3a7d44,
+            sunlightColor: 0x3a7d44
+        });
+    </script>
+</body>
+</html>
