@@ -5,7 +5,7 @@ class CustomFooter extends HTMLElement {
       <style>
         footer {
           background-color: #1a202c;
-          color: #a0aec0:
+          color: #a0aec0;
           padding: 3rem 2rem;
           border-top: 1px solid #2d3748;
         }
@@ -155,3 +155,4 @@ class CustomFooter extends HTMLElement {
 }
 
 customElements.define('custom-footer', CustomFooter);
+
