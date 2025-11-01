@@ -5,7 +5,7 @@ class CustomFooter extends HTMLElement {
       <style>
         footer {
           background-color: #1a202c;
-          color: #a0aec0;
+          color: #a0aec0:
           padding: 3rem 2rem;
           border-top: 1px solid #2d3748;
         }
@@ -111,7 +111,7 @@ class CustomFooter extends HTMLElement {
           <div class="footer-section">
             <h3 class="footer-heading">Tutorials</h3>
             <ul class="footer-links">
-              <li class="footer-link"><a href="tutorial-beginner.html">Beginner's Guide</a></li>
+              <li class="footer-link"><a href="https://youtu.be/N2D9TbHDeCY?si=rLbl2nQ0BEQ9VS4_">Beginner's Guide</a></li>
               <li class="footer-link"><a href="https://youtu.be/N2D9TbHDeCY?si=rLbl2nQ0BEQ9VS4_">Building Mastery</a></li>
               <li class="footer-link"><a href="https://youtu.be/N4AojLGXWe4?si=gTk5ydCm9OimAk11">Redstone Wonders</a></li>
               <li class="footer-link"><a href="https://youtu.be/bUudx1cPiAA?si=-78Ygf6a4aVovZsy">Survival Guide</a></li>
@@ -153,4 +153,5 @@ class CustomFooter extends HTMLElement {
     `;
   }
 }
+
 customElements.define('custom-footer', CustomFooter);
