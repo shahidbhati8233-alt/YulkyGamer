@@ -122,12 +122,12 @@ class CustomFooter extends HTMLElement {
             <ul class="footer-links">
             <div class="flex flex-wrap justify-center gap-4"> 
                <div>
-                <a href="https://www.instagram.com/yulkygamer/" target="_blank">
+                <a href="https://www.instagram.com/yulkygamer/?utm_source=ig_web_button_share_sheet" target="_blank">
                 <img src="images/instagram logo.png" alt="logo" width="40" class="hover:scale-105">
                 </a>
                 </div>
                 <div>
-                <a href="https://www.instagram.com/yulkygamer/" target="_blank">
+                <a href="https://www.instagram.com/yulkygamer/?utm_source=ig_web_button_share_sheet" target="_blank">
                 <img src="images/telegram logo.png" alt="logo" width="35" class="hover:scale-105">
                 </a>
                 </div>
@@ -155,6 +155,7 @@ class CustomFooter extends HTMLElement {
 }
 
 customElements.define('custom-footer', CustomFooter);
+
 
 
 
