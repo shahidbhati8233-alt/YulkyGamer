@@ -106,6 +106,7 @@ class CustomFooter extends HTMLElement {
               <li class="footer-link"><a href="download-java.html">Java Edition</a></li>
               <li class="footer-link"><a href="download-bedrock.html">Bedrock Edition</a></li>
               <li class="footer-link"><a href="download-education edition.html">Education Edition</a></li>
+              <li class="footer-link"><a href="download-education edition.html">Education Edition</a></li>
             </ul>
           </div>
           <div class="footer-section">
@@ -155,6 +156,7 @@ class CustomFooter extends HTMLElement {
 }
 
 customElements.define('custom-footer', CustomFooter);
+
 
 
 
